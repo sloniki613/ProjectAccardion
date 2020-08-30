@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>3 сентября</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="head_title">
+            <span class="opis">Описание собрания</span>
+            <span class="redact" style="cursor: pointer">Редактировать</span>
+        </div>
+        <div class="mine_title">
+            <h2>Предмет обсуждения</h2>
+        </div>
+    </div>
+    <div class="povestka">
+        <span>Повестка</span>
+    </div>
+    <div class="mine">
+  
+    <div class="content">
+        <div class="collum raw1 ralativ">
+            <div class="col raw1 ralativ">
+                <div class="left_panel ">
+                    <img src="img/burger.png" class="burger" alt="Перенос" srcset="" style="cursor:move">
+                    <img src="img/arrow.png" class="arrow" alt="Перенос" srcset="" style="cursor: pointer"> 
+                </div>
+               <div class="title_number"> 
+                   <span id="txtini">1.</span> 
+                   <span>dsdsdsdsd</span>
+                </div>
+               
+                <div class="editText" style="display: none;"> 
+                   <div class="row">
+                        <div class="cols td1">
+                            <span>1</span>
+                        </div>
+                        <div class="cols  td2">
+                            <input type="text">
+                        </div>
+                            <div class="cols td3">
+                              <select name="" id=""><option value="">1</option></select>
+                            </div>
+                            <div class="cols  td4">
+                                <input type="text">
+                            </div>
+                            <div class="cols  td5">
+                                <div>
+                                    <button class="buttons save"><span class="meeting-ag-buttons-icon"></span>Сохронить</button>
+                                </div>
+                                <div>
+                                    <button class="buttons close"><span class="meeting-ag-buttons-icon"></span>Отменить</button>
+                                </div>
+                            </div>
+                                
+                   </div>
+
+                   <div class="row">
+                       <div class="cols w1"></div>
+                       <div class="cols w2">
+                           <input type="checkbox" name="" id="">
+                           <span>Сделать задачей</span>
+                       </div>
+                   </div>
+                </div>
+                
+                <div class="texteriainf">
+                    
+                    <div class="texteria"></div>
+                </div>
+                <div class="plus" style="cursor: pointer"><img src="img/plus.png" alt="" srcset=""></div>
+                <div class="comm">
+                    <img src="img/comment.png" class="comm comhide" alt="Перенос" srcset="" style="cursor: pointer">
+                 </div>
+                 <div class="panel-right">
+                    <div class="del ed"><img src="img/close.png" class="imgclose" alt="" srcset="" style="cursor: pointer"></div>
+                    <div class='edit ed'><img src="img/edit.png" class='imgedit' alt="" srcset="" style="cursor: pointer"></div>
+                </div>
+                <div class="textaria">
+                <div class="text1" style="cursor: pointer"> <span>скрыть комментарии</span> </div>
+               <div class="textflex">
+                   <div class="texteriaimg ralativ"> <img src="img/iiii.png" alt=""></div>
+                <input type="text" class="form" name="" id="">
+                </div>
+                <div class="button-form">
+                    <div class="otpr">  <button>Отправить</button> </div>
+                    <div class="otmena">  <button>Отменить</button> </div>
+                </div>
+                </div>
+            </div>
+            
+         
+
+        </div>
+               <div class="footer">
+                 <div class="foot_btn">
+                    <button class="btnAdd" style="cursor: pointer">ДОБАВИТЬ ВОПРОС</button>
+                    <span class="btnAddSobr" style="cursor: pointer">Добавить из собрания</span>
+                    <span class="btnAddZad" style="cursor: pointer">Добавить из задачи</span>
+                    <span class="btnStartSobr" style="cursor: pointer"> Начать собрание</span>
+                    
+                    
+               
+                  </div>
+              </div>
+        </div>
+        
+    </div>
+    <div id="stels" style="display: none;">
+        <div class="collum raw1 ralativ">
+            <div class="col raw1 ralativ">
+                <div class="left_panel ">
+                    <img src="img/burger.png" class="burger" alt="Перенос" srcset="" style="cursor:move">
+                    <img src="img/arrow.png" class="arrow" alt="Перенос" srcset="" style="cursor: pointer"> 
+                </div>
+               <div class="title_number"> 
+                   <span id="texton" data-number></span> 
+                   <span data-text></span>
+                </div>
+               
+                <div class="editText" style="display: none;"> 
+                   <div class="row">
+                        <div class="cols td1">
+                            <span data-number></span>
+                        </div>
+                        <div class="cols  td2">
+                            <input type="text">
+                        </div>
+                            <div class="cols td3">
+                              <select name="" id=""><option value="">1</option></select>
+                            </div>
+                            <div class="cols  td4">
+                                <input type="text">
+                            </div>
+                            <div class="cols  td5">
+                                <div>
+                                    <button class="buttons save"><span class="meeting-ag-buttons-icon"></span>Сохронить</button>
+                                </div>
+                                <div>
+                                    <button class="buttons close"><span class="meeting-ag-buttons-icon"></span>Отменить</button>
+                                </div>
+                            </div>
+                                
+                   </div>
+
+                   <div class="row">
+                       <div class="cols w1"></div>
+                       <div class="cols w2">
+                           <input type="checkbox" name="" id="">
+                           <span>Сделать задачей</span>
+                       </div>
+                   </div>
+                </div>
+                
+                <div class="texteriainf">
+                    
+                    <div class="texteria"></div>
+                </div>
+                <div class="plus" style="cursor: pointer"><img src="img/plus.png" alt="" srcset=""></div>
+                <div class="comm">
+                    <img src="img/comment.png" class="comm comhide" alt="Перенос" srcset="" style="cursor: pointer">
+                 </div>
+                 <div class="panel-right">
+                    <div class="del ed"><img src="img/close.png" class="imgclose" alt="" srcset="" style="cursor: pointer"></div>
+                    <div class='edit ed'><img src="img/edit.png" class='imgedit' alt="" srcset="" style="cursor: pointer"></div>
+                </div>
+                <div class="textaria">
+                <div class="text1" style="cursor: pointer"> <span>скрыть комментарии</span> </div>
+               <div class="textflex">
+                   <div class="texteriaimg ralativ"> <img src="img/iiii.png" alt=""></div>
+                <input type="text" class="form" name="" id="">
+                </div>
+                <div class="button-form">
+                    <div class="otpr">  <button>Отправить</button> </div>
+                    <div class="otmena">  <button>Отменить</button> </div>
+                </div>
+                </div>
+            </div>
+            
+         
+
+        </div>
+    </div>
+  <script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    
+    width: 1200px;
+    background-color: #E8EFF1;
+    height: auto;
+}
+.relativ{
+    position: relative;
+}
+.buttons .burger {
+    margin-bottom: 21px;
+}
+
+.pov-one {
+    text-align: center;
+    margin: 10px 20px 10px 10px ;
+    position: relative;
+    padding-top: 50px;
+}
+.pov1 .buttons {
+    position: absolute;
+    top: 0px;
+    left: -6px;
+    bottom: 0px;
+}
+
+    .pov-two {
+        text-align: left;
+        margin: 10px 20px 10px 10px ;
+        position: relative;
+        padding-top: 50px;
+    }
+
+
+.pov1 {
+    background-color: #FFFFFF;
+    margin: 1px 1px 1px 1px;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    padding-right: 10px; 
+    display: flex;
+}
+
+.pov2 {
+
+    background-color: #FFFFFF;
+    margin: 5px;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    padding-right: 10px; 
+}
+.pov1:hover {
+    background-color: #D8DBDE;
+    margin: 1px 1px 1px 1px;
+    width: 100%;
+    height: auto;
+}
+
+
+ span {
+    font-size: 20px;
+    color: #929497;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px ;
+    font-style: bold;
+    margin: 0;
+    
+
+    
+}
+
+
+#button {
+    font-size: 18px;
+    padding: 10px 15px 10px 15px;
+    background-color: #B9EB29;
+    margin: 20px;
+    color:  #5E6C6A ;
+    border: 0;
+}
+.new-foot {
+    position: absolute;
+    background: linear-gradient(to top, #559DD5, #98C3E5);
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 32px;
+    right: 26px;
+}
+
+.foot {
+    border-bottom: 1px dashed #5E6C6A;
+    font-size: 14px;
+    
+    
+}
+
+#button:hover {
+  
+    background-color: #CAFF2C;
+
+}
+
+#button:active {
+  
+    background-color: #A5D024;
+
+}
+
+.pov-one img {
+    
+    padding-left: 10px;
+}
+.pov-two img {
+    
+    padding-left: 10px;
+}
+
+.arrow {
+    display: none;
+}
+
+.burger {
+    display: none;
+    top: 8px;
+    position: relative;
+}
+
+ .pov1:hover .arrow {
+    display: block;
+}
+
+.pov1:hover .burger {
+    display: block;
+}
+
+
+
+.comm {
+    display: none;
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    right: 15px;
+    top: 22px;
+}
+
+.pov1:hover .comm {
+    display: block;
+}
+
+.plus {
+   
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 24px;
+    z-index: 3;
+    display: none;
+    opacity: 0.7;
+    padding: 1px;
+    
+}
+
+.pov1:hover .plus {
+    display: block;
+   
+}
+.plus:hover .plus {
+    display: block;
+    opacity: 1;
+}
+
+.panel {
+    width: 20px;
+    height: 54px;
+    display: none;
+    position: absolute;
+    right: -21px;
+    z-index: 2;
+    
+}
+
+.imgclose {
+   
+    position: relative;
+    left: -7px;
+    top: -11px;
+}
+
+.imgedit {
+
+    position: relative;
+    left: -6px;
+    top: 2px;
+}
+
+
+.pov1:hover .panel {
+    display: block;
+   
+}

@@ -1,0 +1,483 @@
+*{
+    box-sizing: border-box;
+}
+
+ol {
+
+    display: block;
+}
+
+li {
+
+    display: block;
+}
+
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ralative {
+     position: relative;
+
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.mine {
+     width: 98%;
+     border: 1px solid rgb(150, 148, 148);
+     margin: 0 auto;
+     height: auto;
+     background-color: #E0EAEF;
+     padding-right: 30px;
+}
+
+.collum {
+    margin-left: 30px;
+}
+
+.collum2 {
+ margin: 10px
+
+}
+
+
+.col {
+     margin: 2px 0 0 auto;
+     width: 100%;
+     padding: 20px;
+     background-color: #F4F7FA;
+}
+
+.footer {
+    margin: 25px;
+    
+    
+    
+}
+
+.footer .foot_btn {
+
+    padding: 20px;
+    margin: -10px;
+
+}
+
+.footer .btnStartSobr {
+     
+    border: 1px solid #559DD5;
+    border-radius: 5px; 
+    float: right;
+    padding: 5px;
+    color: white;
+    background: linear-gradient(to top, #529BD4, #91BFE3);
+
+}
+
+.footer .btnStartSobr:hover {
+     
+    background: linear-gradient(to top,  #61a3d4, #a8cde9);
+
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    position: relative;
+}
+
+.burger {
+
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    display: none;
+    opacity: 0.5;
+}
+
+.arrow {
+
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    display: none;
+    opacity: 0.5;
+}
+
+.arrow:hover  {
+    opacity: 1;
+}
+
+.burger:hover {
+    opacity: 1;
+}
+.col:hover .arrow {
+    display: block;
+}
+
+.col:hover .burger{
+    display: block;
+}
+
+.comm img {
+    position: absolute;
+    right: 30px;
+    display: none;
+    top: 22px;
+    opacity: 0.5;
+}
+.comm img:hover {
+
+    opacity: 1;
+}
+
+.col:hover .comm img{
+    display: block;
+}
+
+.plus {
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    display: none;
+    opacity: 0.5;
+    
+}
+
+
+.plus:hover {
+  
+    opacity:1;
+    
+}
+.col:hover .plus{
+    display: block;
+    
+}
+
+.panel-right .del {
+    position: absolute;
+    z-index: 2;
+    right: 0px;
+    top: 0px;
+}
+
+.panel-right .edit {
+    
+position: absolute;
+    
+z-index: 2;
+    
+right: 0px;
+    
+bottom: 0px;
+}
+
+.panel-right {
+    
+display: none;
+    
+position: absolute;
+    
+right: -18px;
+    
+top: 0px;
+    
+margin: 0px;
+    
+width: 30px;
+    
+height: 55px;
+}
+
+.col:hover .panel-right{
+    display: block;
+    
+    
+}
+.panel-right:hover {
+    display: block;
+    
+    
+}
+
+.head_title {
+    display: flex;
+    background-color: #EDE9D4;
+    border: 1px solid rgb(104, 104, 104);
+    width: 98%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.mine_title {
+
+    background-color: #EDEDDF;
+    padding: 10px;
+    width: 98%;
+    margin: 0 auto;
+    border: 1px solid rgb(150, 148, 148);
+    
+    
+}
+
+
+.povestka span {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #3D3E41;
+    padding: 10px 20px;
+    padding-top: 10px;
+    
+}
+
+.foot_btn .btnAdd {
+
+    background-color: #B8EB2A;
+    border: 1px solid #B8EB2A;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px;
+    color: #5D696A;
+}
+
+.btnAddSobr, .btnAddZad {
+    margin-left: 15px;
+    border-bottom: 1px dashed #5E6C6A;
+}
+
+.foot_btn .btnAdd:hover {
+
+    background-color: #ccfc4a;
+    border: 1px solid #B8EB2A;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px;
+    color: #5D696A;
+}
+
+
+.redact {
+
+    color: #3776B4;
+    font-size: 14px;
+}
+
+
+.textaria {
+    
+
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    display: none;
+
+}
+
+.comm:active .textaria {
+    display: block;
+}
+
+
+.textaria .text1 { 
+    float: right;
+    margin: 10px;
+    font-size: 12px;
+    border-bottom: 1px dashed rgb(104, 104, 104);
+    opacity: 0.5;
+}
+
+.textaria .text1:hover { 
+  
+    opacity: 1;
+}
+.col.editshow .editText {
+    display: block !important;
+    width: 100%;
+}
+
+.col.editshow .title_number {
+    display: none;
+}
+.textflex {
+
+    display: flex;
+    width: 100%;
+
+}
+
+.form {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+}
+
+.texteriaimg img {
+    margin-top: 6px;
+    margin-right: 18px;
+}
+
+
+input.form:focus {
+    height: 200px;
+}
+
+.button-form {
+    margin: 20px;
+    display: flex;
+}
+
+
+.otpr {
+    margin-left: 50px ;
+    margin-right: 20px ;
+    
+}
+
+.otpr button {
+
+    background-color: #3BC8F5;
+    padding: 8px 10px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #3BC8F5;
+    border-radius: 2px;
+    display: none;
+}
+
+.otmena button {
+
+    
+    padding: 8px 10px;
+    
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    display: none;
+   
+}
+
+input.form:focus .otmena button {
+    display: block;
+}
+
+.imgeditop {
+
+    display: block !important;
+}
+
+.row {
+
+display: flex;
+
+width: 100%;
+}
+
+.cols.td1 {
+    flex: 0 0 4%;
+    padding: 0 2px;
+    outline: none !important;
+
+}
+
+.cols.td2 {
+    flex: 0 0 62%;
+    
+    padding: 0 2px;
+    outline: none !important;
+}
+
+.cols.td3 {
+    
+    flex: 0 0 20%;
+    padding: 0 2px;
+    outline: none !important;
+}
+
+.cols input, .cols button, .cols select {
+    width: 100%;
+}
+
+.col.editshow .comm {
+   display: none !important;
+}
+
+button.save {
+    background: url(img/meetings-sprite.png) repeat-x 0 -180px;
+    display: inline-block;
+    height: 21px;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0px 0 0 22px;
+    position: relative;
+    vertical-align: top;
+    cursor: pointer;
+    border: 0px;
+    margin-bottom: 3px;
+    width: 91px;
+    box-shadow: 0px 0px 1px 0px #000;
+    margin-left: 5px;
+}
+
+button.close {
+    background: url(img/meetings-sprite.png) repeat-x 0 -180px;
+    display: inline-block;
+    height: 21px;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0px 0 0 22px;
+    position: relative;
+    vertical-align: top;
+    cursor: pointer;
+    border: 0px;
+    margin-bottom: 3px;
+    width: 91px;
+    box-shadow: 0px 0px 1px 0px #000;
+    margin-left: 5px;
+}
+button.save .meeting-ag-buttons-icon {
+    background: url(img/meetings-sprite.png) no-repeat 0 -73px;
+    height: 15px;
+    left: 6px;
+    top: 3px;
+    position: absolute;
+    width: 15px;
+}
+button.close .meeting-ag-buttons-icon {
+    background: url(img/meetings-sprite.png) no-repeat -18px -73px;
+    height: 15px;
+    left: 6px;
+    top: 3px;
+    position: absolute;
+    width: 15px;
+}
+
+.cols input, .cols select, .cols button {
+    outline: none !important;
+
+}
+
+.check_mine {
+
+    display: flex;
+}
+
+.w1 {
+
+  flex: 0 0 66%; 
+}
+
+.w2 {
+flex: 0 0 20%;
+}
+
+.cols.w2 input {
+    width: 20px !important;
+}
